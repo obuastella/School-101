@@ -1,7 +1,10 @@
+import "./index.css";
+import VerificationPage from "./pages/VerificationPage";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-xl text-center">Hello World</h1>
+    <div className="w-full h-screen">
+      <VerificationPage />
     </div>
   );
 }
