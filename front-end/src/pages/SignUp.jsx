@@ -1,7 +1,7 @@
 function SignUp() {
   return (
     <div className="w-full h-screen bg-bgColor">
-      <h1 className="text-center text-red-600">Sign Up Page</h1>
+      <h1 className="text-center text-white">Sign Up Page</h1>
     </div>
   );
 }
