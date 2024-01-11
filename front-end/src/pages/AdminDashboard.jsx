@@ -1,7 +1,7 @@
 function AdminDashboard() {
   return (
-    <div>
-      <h1>Admin Dashboard</h1>
+    <div className="w-full h-screen bg-bgColor">
+      <h1 className="text-center text-white">Admin Dashboard</h1>
     </div>
   );
 }
