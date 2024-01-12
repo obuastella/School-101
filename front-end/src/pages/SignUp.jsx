@@ -7,9 +7,18 @@ function SignUp() {
           Who are you?
         </h2>
         <div className="flex justify-evenly">
-          <div className="w-24 h-24 rounded-full border-2 "></div>
-          <div className="w-24 h-24 rounded-full border-2 "></div>
-          <div className="w-24 h-24 rounded-full border-2 "></div>
+          <div>
+            <div className="w-24 h-24 rounded-full border-2 "></div>
+            <h2 className="text-yellow-200">Parent</h2>
+          </div>
+          <div>
+            <div className="w-24 h-24 rounded-full border-2 "></div>
+            <h2 className="text-orange-200">Student</h2>
+          </div>
+          <div>
+            <div className="w-24 h-24 rounded-full border-2 "></div>
+            <h2 className="text-blue-200">Teacher</h2>
+          </div>
         </div>
       </div>
     </section>
@@ -17,3 +26,5 @@ function SignUp() {
 }
 
 export default SignUp;
+
+// TODO: Make the profile an array and loop through
