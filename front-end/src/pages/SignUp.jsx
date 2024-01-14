@@ -20,6 +20,7 @@ function SignUp() {
             <h2 className="text-blue-200">Teacher</h2>
           </div>
         </div>
+        {/* Input Tag */}
       </div>
     </section>
   );
