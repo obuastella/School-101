@@ -21,6 +21,7 @@ function SignUp() {
           </div>
         </div>
         {/* Input Tag */}
+        {/* <input type="text" placeholder="" /> */}
       </div>
     </section>
   );
